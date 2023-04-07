@@ -1,0 +1,486 @@
+.AllHome {
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+.Container {
+  display: flex;
+  justify-content: space-between;
+  width: 91.5%;
+}
+.SearchContainer {
+  display: flex;
+  align-items: flex-end;
+}
+.SearchContainer input {
+  font-size: 15px;
+  color: #757575;
+  width: 150%;
+  font-style: normal;
+  padding: 8px 70px 10px 20px;
+  outline: none;
+  border: none;
+  background-color: #f5f5f5;
+}
+.btn {
+  border: none;
+  /* width: 100%; */
+  padding: 10px 0px 5px 40px;
+  background: #301d73;
+  border: 2px solid #301d73;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button .searchButton {
+  width: 10%;
+  padding: 6px 10px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+}
+.HistoryContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+.HistoryContainer li {
+  list-style: none;
+  background-color: white;
+  padding: 15px;
+  padding-left: 60px;
+  gap: 5px;
+}
+.HistoryContainer .About {
+  padding: 15px;
+  padding-left: 100px;
+  display: flex;
+  justify-items: end;
+  width: 100%;
+  background-color: white;
+}
+
+/* Pcrc Container/ */
+.PcrcSection {
+  margin: auto;
+  width: 100%;
+  background-color: white;
+}
+.PcrcContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+.ReportContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.ReportContainer .case {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.ReportContainer .JoinContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: space-between;
+  width: 40%;
+  align-items: center;
+}
+.ReportContainer .JoinContainer .Join button {
+  padding: 15px 40px;
+  background-color: #2a166f;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+}
+.ReportContainer .JoinContainer .Login button {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  border: 1px solid #2a166f;
+  border-radius: 10px;
+}
+.ReportContainer .JoinContainer .Login button p {
+  padding-left: 10px;
+}
+
+/*  */
+.membershipContainer {
+  background-color: #ffffff;
+  margin-top: 3px;
+  height: 10vh;
+  display: flex;
+}
+.membershipContainer ul {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 77%;
+  margin: auto;
+}
+.membershipContainer ul li select {
+  cursor: pointer;
+  list-style: none;
+  color: #301d73;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-around;
+  width: 10rem;
+  border: none;
+  outline: none;
+}
+.membershipContainer ul li {
+  list-style: none;
+  color: #301d73;
+  font-weight: 700;
+}
+/*  */
+
+.Teacher {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.Teacher img {
+  object-fit: cover;
+  width: 140%;
+  height: 500px;
+  object-fit: fill;
+}
+.Teacher .Connected {
+  right: -1rem;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  padding: 20px 20px;
+  width: 30%;
+  line-height: 0;
+  border-radius: 20px;
+}
+.Teacher .Connected h4 {
+  font-size: 22px;
+}
+.Teacher .Connected .space {
+  width: 49px;
+  height: 4px;
+  background: #301d73;
+  border-radius: 10px;
+  margin: 20px 0px 10px 0px;
+}
+.Teacher .Connected .p {
+  font-size: 15px;
+  line-height: 1.4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/*  */
+
+.Zone {
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.Zone img {
+  /* object-fit: contain; */
+  width: 60rem;
+  justify-content: end;
+
+  height: 600px;
+  /* object-fit: fill; */
+}
+.Zone .Connected {
+  left: -1rem;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  padding: 20px 20px;
+  width: 25%;
+  line-height: 0;
+  border-radius: 20px;
+}
+.Zone .Connected h4 {
+  font-size: 22px;
+}
+.Zone .Connected .space {
+  width: 49px;
+  height: 4px;
+  background: #069c95;
+  border-radius: 10px;
+  margin: 20px 0px 20px 0px;
+}
+.Zone .Connected .p {
+  font-size: 17px;
+  line-height: 1.4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+/*  */
+
+.ServiceContainer {
+  margin-top: -20px;
+  background-color: #ffffff;
+  padding: 100px;
+}
+
+
+
+
+@media screen and (max-width: 1115px) and (min-width: 0px) {
+  .HistoryContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 3px;
+  }
+  .HistoryContainer .About {
+    padding-left: 50px;
+    width: 112%;
+  }
+  .MemContainer .Connected .p {
+    width: 95%;
+    font-size: 13px;
+    line-height: 1.4;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+  .ReportContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+  }
+  .ServiceContainer {
+    margin-top: -20px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  .Teacher img{
+    width: 50rem;
+
+  }
+  .Teacher .Connected {
+    right: 1rem;
+    min-width: 30%;
+  }
+  .Zone .Connected {
+    left: 0;
+    min-width: 30%;
+  }
+  .Zone .Upcoming {
+    width: 78%;
+    padding: 30px;
+  }
+  .Zone img {
+    width: 50rem;
+  }
+  
+}
+
+@media screen and (max-width: 950px) and (min-width: 0px) {
+  .HistoryContainer .About {
+    padding-left: 50px;
+    width: 105%;
+  }
+  .Teacher img {
+    width: 110%;
+  }
+  .Zone img {
+    width: 44rem;
+
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 0px) {
+  .Teacher img {
+    width: 100%;
+  }
+  .Zone img {
+    width: 40rem;
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 850px) and (min-width: 0px) {
+  .HistoryContainer .About {
+    padding-left: 50px;
+    width: 102%;
+  }
+  .ReportContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+  .AboutUsContent h1{
+    font-size: 20px;
+  }
+  .AboutUsContent p{
+    font-size: 10px;
+  }
+  .Teacher img {
+    width: 90%;
+  }
+  .Zone img {
+    width: 35rem;
+    height: 70vh;
+  }
+
+  
+}
+@media screen and (max-width: 802px) {
+  .AllHome .Container {
+    display: none;
+  }
+  .PcrcSection {
+    display: none;
+  }
+  .membershipContainer {
+    display: none;
+  }
+}
+@media screen and (max-width:768px) {
+  .Teacher img {
+    width: 95%;
+    height: 60vh;
+
+  }
+  .Teacher .Connected .p{
+    font-size: 12px;
+  }
+  .Zone img {
+    width: 30rem;
+    height: 60vh;
+  }
+  .Zone .Connected .p{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:580px) {
+  .Teacher img {
+    width: 70%;
+    height: 60vh;
+
+  }
+  .Teacher .Connected .p{
+    font-size: 10px;
+  }
+  .Zone img {
+    width: 25rem;
+    height: 60vh;
+  }
+  .Zone .Connected .p{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:500px) {
+  .Teacher img {
+    width: 115%;
+    height: 20vh;
+
+  }
+  .Teacher .Connected .p{
+    font-size: 7px;
+  }
+  .Zone img {
+    width: 15rem;
+    height: 20vh;
+  }
+  .Zone .Connected .p{
+    font-size:7px;
+  }
+  .ServiceContainer {
+    margin-top: -20px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+}
+@media screen and (max-width:330px) {
+  .Teacher {
+    flex-direction: column;
+  }
+  .Teacher .Connected {
+    right: -1rem;
+    position: relative ;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 20px 20px;
+    width: 70%;
+    line-height: 0;
+    border-radius: 20px;
+}
+  .Teacher img {
+    width: 115%;
+    height: 20vh;
+
+  }
+  .Teacher .Connected .p{
+    font-size: 10px;
+  }
+  .Zone img {
+    width: 15rem;
+    height: 20vh;
+  }
+  .Zone .Connected .p{
+    font-size:10px;
+  }
+  .Zone {
+    flex-direction: column;
+  }
+  .Zone .Connected {
+    right: -1rem;
+    position: relative ;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 20px 20px;
+    width: 70%;
+    line-height: 0;
+    border-radius: 20px;
+}
+  .ServiceContainer {
+    margin-top: -20px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+}
+@media screen and (max-width:295px) {
+  .Teacher {
+    flex-direction: column;
+  }
+  .Teacher .Connected {
+    right: -1rem;
+    position: relative ;
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 20px 20px;
+    width: 70%;
+    line-height: 0;
+    border-radius: 20px;
+}
+}
